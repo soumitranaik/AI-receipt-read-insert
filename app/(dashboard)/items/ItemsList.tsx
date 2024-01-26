@@ -42,7 +42,7 @@ export default async function ItemsList() {
         <tbody>
             { items?.map((item) => {
                 return (
-                  <tr className="odd:bg-white odd:dark:bg-cyan-200 even:bg-gray-50 even:dark:bg-cyan-300 border-b dark:border-gray-700">
+                  <tr key={item.id} className="odd:bg-white odd:dark:bg-cyan-200 even:bg-gray-50 even:dark:bg-cyan-300 border-b dark:border-gray-700">
                     <th
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-primary"
