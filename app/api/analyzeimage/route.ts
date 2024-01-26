@@ -23,7 +23,7 @@ export const POST = async(request : Request) => {
           content: [
             {
               type: "text",
-              text: "Analyse the design of this webpage in 300 words or less. Suggest improvements in colour, design, layout etc.",
+              text: `Extract item, quantity, and price from the receipt and return in this json array format: [{"Item": "Shirt and jeans", "Quantity": 1, "Price": 800.00}, {"Item": "Shirt and jeans 3", "Quantity": 13, "Price": 8300.00}]. Please don't add any text like json or quotes before and after the array []`,
             },
             {
               type: "image_url",
