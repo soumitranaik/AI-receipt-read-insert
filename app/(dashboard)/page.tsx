@@ -110,7 +110,7 @@ export default function Home() {
       </div>
       <div className="block lg:hidden">
         <div className="flex w-full gap-4">
-          <Link className="text-center w-1/2 rounded-lg bg-gradient-to-l from-cyan-800 via-cyan-700 to-cyan-600 shadow-md px-8 py-6 text-white" href={""}>
+          <Link href="/items" className="text-center w-1/2 rounded-lg bg-gradient-to-l from-cyan-800 via-cyan-700 to-cyan-600 shadow-md px-8 py-6 text-white" href={""}>
             View Items
           </Link>
           <Link className="text-center w-1/2 bg-gradient-to-l from-cyan-600 via-cyan-700 to-cyan-800 rounded-lg shadow-md px-8 py-6 text-white" href={""}>
