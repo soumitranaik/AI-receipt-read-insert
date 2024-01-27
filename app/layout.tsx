@@ -3,7 +3,6 @@ import { Raleway } from "next/font/google";
 import "./globals.css";
 
 
-
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
