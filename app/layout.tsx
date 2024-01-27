@@ -6,6 +6,7 @@ import "./globals.css";
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  manifest: "/manifest.json",
   title: "AI Page Rewiewer",
   description: "Review your webpage design",
 };

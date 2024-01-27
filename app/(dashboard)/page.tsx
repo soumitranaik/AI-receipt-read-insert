@@ -114,7 +114,7 @@ export default function Home() {
             View Items
           </Link>
           <Link href="/" className="text-center w-1/2 bg-gradient-to-l from-cyan-600 via-cyan-700 to-cyan-800 rounded-lg shadow-md px-8 py-6 text-white">
-            Example
+            Example Receipt
           </Link>
         </div>
       </div>
