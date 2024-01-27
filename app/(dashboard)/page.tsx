@@ -93,7 +93,7 @@ export default function Home() {
                 type="file"
                 className="text-sm bg-cyan-300 border rounded-lg border-cyan-400 cursor-pointer"
                 onChange={(e) => handleImageChange(e)}
-                accept="image/*;capture=camera"
+                accept="image/*" capture
               />
             </div>
             <div className="flex justify-center">
