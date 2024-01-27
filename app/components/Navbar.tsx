@@ -25,13 +25,16 @@ export default function Navbar({ user } : NavbarProps) {
     <>
       <header className="sm:px-8 px-4 z-10 w-full">
         <nav className="flex justify-between items-center max-container z-10">
+          <Link href="/">
           <Image
             src={Logo}
             alt="logo"
             width={90}
             quality={100}
             placeholder="blur"
+           
           />
+          </Link>
           <ul className="flex-1 flex ml-12 mr-auto gap-16 max-lg:hidden">
             {navLinks.map((item) => (
               <li key={item.label} className=''>
