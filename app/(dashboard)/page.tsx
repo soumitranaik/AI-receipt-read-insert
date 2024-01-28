@@ -67,7 +67,7 @@ export default function Home() {
 
   return (
     <>
-      <div className=" min-h-[70vh] flex justify-center items-center text-md overflow-auto">
+      <div className=" min-h-[75vh] flex justify-center items-center text-md overflow-auto">
         <div className=" overflow-auto w-full bg-gradient-to-br from-cyan-500 to-cyan-100 max-w-2xl rounded-lg shadow-md p-8">
           <h2 className=" text-2xl mb-4 font-bold text-center">
             AI receipt reader
